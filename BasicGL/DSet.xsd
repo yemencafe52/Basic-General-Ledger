@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSet" targetNamespace="http://tempuri.org/DSet.xsd" xmlns:mstns="http://tempuri.org/DSet.xsd" xmlns="http://tempuri.org/DSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\bin\x86\Debug\DataBase\db.accdb" IsAppSettingsProperty="false" Modifier="Assembly" Name="db.accdb" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSet" msprop:Generator_UserDSName="DSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="rptJETempTable" msprop:Generator_TableClassName="rptJETempTableDataTable" msprop:Generator_TableVarName="tablerptJETempTable" msprop:Generator_TablePropName="rptJETempTable" msprop:Generator_RowDeletingName="rptJETempTableRowDeleting" msprop:Generator_RowChangingName="rptJETempTableRowChanging" msprop:Generator_RowEvHandlerName="rptJETempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptJETempTableRowDeleted" msprop:Generator_UserTableName="rptJETempTable" msprop:Generator_RowChangedName="rptJETempTableRowChanged" msprop:Generator_RowEvArgName="rptJETempTableRowChangeEvent" msprop:Generator_RowClassName="rptJETempTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="doc_no" msprop:Generator_ColumnVarNameInTable="columndoc_no" msprop:Generator_ColumnPropNameInRow="doc_no" msprop:Generator_ColumnPropNameInTable="doc_noColumn" msprop:Generator_UserColumnName="doc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="doc_date" msprop:Generator_ColumnVarNameInTable="columndoc_date" msprop:Generator_ColumnPropNameInRow="doc_date" msprop:Generator_ColumnPropNameInTable="doc_dateColumn" msprop:Generator_UserColumnName="doc_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="doc_amount" msprop:Generator_ColumnVarNameInTable="columndoc_amount" msprop:Generator_ColumnPropNameInRow="doc_amount" msprop:Generator_ColumnPropNameInTable="doc_amountColumn" msprop:Generator_UserColumnName="doc_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="doc_desc" msprop:Generator_ColumnVarNameInTable="columndoc_desc" msprop:Generator_ColumnPropNameInRow="doc_desc" msprop:Generator_ColumnPropNameInTable="doc_descColumn" msprop:Generator_UserColumnName="doc_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="t_no" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnt_no" msprop:Generator_ColumnPropNameInRow="t_no" msprop:Generator_ColumnPropNameInTable="t_noColumn" msprop:Generator_UserColumnName="t_no" type="xs:int" minOccurs="0" />
+              <xs:element name="t_debit" msprop:Generator_ColumnVarNameInTable="columnt_debit" msprop:Generator_ColumnPropNameInRow="t_debit" msprop:Generator_ColumnPropNameInTable="t_debitColumn" msprop:Generator_UserColumnName="t_debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="t_credit" msprop:Generator_ColumnVarNameInTable="columnt_credit" msprop:Generator_ColumnPropNameInRow="t_credit" msprop:Generator_ColumnPropNameInTable="t_creditColumn" msprop:Generator_UserColumnName="t_credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="t_desc" msprop:Generator_ColumnVarNameInTable="columnt_desc" msprop:Generator_ColumnPropNameInRow="t_desc" msprop:Generator_ColumnPropNameInTable="t_descColumn" msprop:Generator_UserColumnName="t_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptDASTempTable" msprop:Generator_TableClassName="rptDASTempTableDataTable" msprop:Generator_TableVarName="tablerptDASTempTable" msprop:Generator_RowChangedName="rptDASTempTableRowChanged" msprop:Generator_TablePropName="rptDASTempTable" msprop:Generator_RowDeletingName="rptDASTempTableRowDeleting" msprop:Generator_RowChangingName="rptDASTempTableRowChanging" msprop:Generator_RowEvHandlerName="rptDASTempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptDASTempTableRowDeleted" msprop:Generator_RowClassName="rptDASTempTableRow" msprop:Generator_UserTableName="rptDASTempTable" msprop:Generator_RowEvArgName="rptDASTempTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="doc_no" msprop:Generator_ColumnVarNameInTable="columndoc_no" msprop:Generator_ColumnPropNameInRow="doc_no" msprop:Generator_ColumnPropNameInTable="doc_noColumn" msprop:Generator_UserColumnName="doc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="doc_date" msprop:Generator_ColumnVarNameInTable="columndoc_date" msprop:Generator_ColumnPropNameInRow="doc_date" msprop:Generator_ColumnPropNameInTable="doc_dateColumn" msprop:Generator_UserColumnName="doc_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="doc_amount" msprop:Generator_ColumnVarNameInTable="columndoc_amount" msprop:Generator_ColumnPropNameInRow="doc_amount" msprop:Generator_ColumnPropNameInTable="doc_amountColumn" msprop:Generator_UserColumnName="doc_amount" type="xs:decimal" minOccurs="0" />
+              <xs:element name="doc_desc" msprop:Generator_ColumnVarNameInTable="columndoc_desc" msprop:Generator_ColumnPropNameInRow="doc_desc" msprop:Generator_ColumnPropNameInTable="doc_descColumn" msprop:Generator_UserColumnName="doc_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="t_no" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnt_no" msprop:Generator_ColumnPropNameInRow="t_no" msprop:Generator_ColumnPropNameInTable="t_noColumn" msprop:Generator_UserColumnName="t_no" type="xs:int" minOccurs="0" />
+              <xs:element name="t_debit" msprop:Generator_ColumnVarNameInTable="columnt_debit" msprop:Generator_ColumnPropNameInRow="t_debit" msprop:Generator_ColumnPropNameInTable="t_debitColumn" msprop:Generator_UserColumnName="t_debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="t_credit" msprop:Generator_ColumnVarNameInTable="columnt_credit" msprop:Generator_ColumnPropNameInRow="t_credit" msprop:Generator_ColumnPropNameInTable="t_creditColumn" msprop:Generator_UserColumnName="t_credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="t_desc" msprop:Generator_ColumnVarNameInTable="columnt_desc" msprop:Generator_ColumnPropNameInRow="t_desc" msprop:Generator_ColumnPropNameInTable="t_descColumn" msprop:Generator_UserColumnName="t_desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" minOccurs="0" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptTASTempTable" msprop:Generator_TableClassName="rptTASTempTableDataTable" msprop:Generator_TableVarName="tablerptTASTempTable" msprop:Generator_RowChangedName="rptTASTempTableRowChanged" msprop:Generator_TablePropName="rptTASTempTable" msprop:Generator_RowDeletingName="rptTASTempTableRowDeleting" msprop:Generator_RowChangingName="rptTASTempTableRowChanging" msprop:Generator_RowEvHandlerName="rptTASTempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptTASTempTableRowDeleted" msprop:Generator_RowClassName="rptTASTempTableRow" msprop:Generator_UserTableName="rptTASTempTable" msprop:Generator_RowEvArgName="rptTASTempTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debit" msprop:Generator_ColumnVarNameInTable="columndebit" msprop:Generator_ColumnPropNameInRow="debit" msprop:Generator_ColumnPropNameInTable="debitColumn" msprop:Generator_UserColumnName="debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="credit" msprop:Generator_ColumnVarNameInTable="columncredit" msprop:Generator_ColumnPropNameInRow="credit" msprop:Generator_ColumnPropNameInTable="creditColumn" msprop:Generator_UserColumnName="credit" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptBSTempTable" msprop:Generator_TableClassName="rptBSTempTableDataTable" msprop:Generator_TableVarName="tablerptBSTempTable" msprop:Generator_RowChangedName="rptBSTempTableRowChanged" msprop:Generator_TablePropName="rptBSTempTable" msprop:Generator_RowDeletingName="rptBSTempTableRowDeleting" msprop:Generator_RowChangingName="rptBSTempTableRowChanging" msprop:Generator_RowEvHandlerName="rptBSTempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptBSTempTableRowDeleted" msprop:Generator_RowClassName="rptBSTempTableRow" msprop:Generator_UserTableName="rptBSTempTable" msprop:Generator_RowEvArgName="rptBSTempTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debit" msprop:Generator_ColumnVarNameInTable="columndebit" msprop:Generator_ColumnPropNameInRow="debit" msprop:Generator_ColumnPropNameInTable="debitColumn" msprop:Generator_UserColumnName="debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="credit" msprop:Generator_ColumnVarNameInTable="columncredit" msprop:Generator_ColumnPropNameInRow="credit" msprop:Generator_ColumnPropNameInTable="creditColumn" msprop:Generator_UserColumnName="credit" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptISTempTable" msprop:Generator_TableClassName="rptISTempTableDataTable" msprop:Generator_TableVarName="tablerptISTempTable" msprop:Generator_RowChangedName="rptISTempTableRowChanged" msprop:Generator_TablePropName="rptISTempTable" msprop:Generator_RowDeletingName="rptISTempTableRowDeleting" msprop:Generator_RowChangingName="rptISTempTableRowChanging" msprop:Generator_RowEvHandlerName="rptISTempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptISTempTableRowDeleted" msprop:Generator_RowClassName="rptISTempTableRow" msprop:Generator_UserTableName="rptISTempTable" msprop:Generator_RowEvArgName="rptISTempTableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debit" msprop:Generator_ColumnVarNameInTable="columndebit" msprop:Generator_ColumnPropNameInRow="debit" msprop:Generator_ColumnPropNameInTable="debitColumn" msprop:Generator_UserColumnName="debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="credit" msprop:Generator_ColumnVarNameInTable="columncredit" msprop:Generator_ColumnPropNameInRow="credit" msprop:Generator_ColumnPropNameInTable="creditColumn" msprop:Generator_UserColumnName="credit" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="rptTBTempTable" msprop:Generator_TableClassName="rptTBTempTableDataTable" msprop:Generator_TableVarName="tablerptTBTempTable" msprop:Generator_TablePropName="rptTBTempTable" msprop:Generator_RowDeletingName="rptTBTempTableRowDeleting" msprop:Generator_RowChangingName="rptTBTempTableRowChanging" msprop:Generator_RowEvHandlerName="rptTBTempTableRowChangeEventHandler" msprop:Generator_RowDeletedName="rptTBTempTableRowDeleted" msprop:Generator_UserTableName="rptTBTempTable" msprop:Generator_RowChangedName="rptTBTempTableRowChanged" msprop:Generator_RowEvArgName="rptTBTempTableRowChangeEvent" msprop:Generator_RowClassName="rptTBTempTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="acc_no" msprop:Generator_ColumnVarNameInTable="columnacc_no" msprop:Generator_ColumnPropNameInRow="acc_no" msprop:Generator_ColumnPropNameInTable="acc_noColumn" msprop:Generator_UserColumnName="acc_no" type="xs:int" />
+              <xs:element name="acc_name" msprop:Generator_ColumnVarNameInTable="columnacc_name" msprop:Generator_ColumnPropNameInRow="acc_name" msprop:Generator_ColumnPropNameInTable="acc_nameColumn" msprop:Generator_UserColumnName="acc_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="debit" msprop:Generator_ColumnVarNameInTable="columndebit" msprop:Generator_ColumnPropNameInRow="debit" msprop:Generator_ColumnPropNameInTable="debitColumn" msprop:Generator_UserColumnName="debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="credit" msprop:Generator_ColumnVarNameInTable="columncredit" msprop:Generator_ColumnPropNameInRow="credit" msprop:Generator_ColumnPropNameInTable="creditColumn" msprop:Generator_UserColumnName="credit" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rptTASTempTable" />
+      <xs:field xpath="mstns:acc_no" />
+    </xs:unique>
+    <xs:unique name="rptBSTempTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rptBSTempTable" />
+      <xs:field xpath="mstns:acc_no" />
+    </xs:unique>
+    <xs:unique name="rptISTempTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rptISTempTable" />
+      <xs:field xpath="mstns:acc_no" />
+    </xs:unique>
+    <xs:unique name="rptTBTempTable_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:rptTBTempTable" />
+      <xs:field xpath="mstns:acc_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
